@@ -1,0 +1,68 @@
+.skeletonCardContainer{
+    display: flex;
+    background:#f1f2f6;
+    padding:2rem 0;
+    margin:2rem 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.skeletonImgContainer{
+    height:9.5rem;
+    width:9.5rem;
+    margin-left:2rem;
+    margin-right:1.2rem;
+    border-radius: 1rem;
+}
+
+
+.skeletonTexualContentContainer{
+    min-height:100%!important;
+    position: relative;
+    width: 100%;
+}
+
+.skeletonTexualContentContainer .skeletonText{
+    margin-top:0.2rem;
+    margin-left: 0.5rem;
+    height: 3.2rem;
+    width: 18.3rem;
+  }
+
+.skeletonBtnContainer{
+    display: flex;
+    justify-content: flex-start;
+    position: absolute;
+    bottom:4%;
+}
+
+.skeletonBtn{
+    border-radius: 2.5rem;
+    padding:0.4rem 1.3rem;
+    font-size:1.26rem;
+    cursor: pointer;
+    font-weight:420;
+    margin: 0 0.4rem;
+    text-transform: capitalize;
+    width: 8.8151rem;
+    height: 2.889rem;
+}
+
+@media (min-width: 200px) and (max-width: 350px) {
+ .skeletonBtn{
+    border-radius: 2.5rem;
+    padding:0.3rem 1.3rem;
+    font-size:1.26rem;
+    cursor: pointer;
+    font-weight:420;
+    margin: 0 0.4rem;
+    text-transform: capitalize;
+    width: 7rem;
+    height: 2.5rem;
+}
+
+.skeletonTexualContentContainer .skeletonText{
+    height: 3rem;
+    width:14.5rem;
+}
+
+}

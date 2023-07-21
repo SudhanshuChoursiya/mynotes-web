@@ -1,0 +1,54 @@
+html {
+  font-size: 62.5%;
+}
+
+.Verification-success-page {
+  height: 90vh;
+  width: 100vw;
+  background-color: whitesmoke;
+}
+
+.Verification-success-page img {
+  margin: 1rem 0;
+  height: 12rem;
+  width: 12rem;
+}
+
+.Verification-success-page p {
+  text-align: center;
+  font-size: 1.6rem;
+  color: black;
+  display: inline-block;
+  margin: 0 0.5rem;
+}
+
+.Verification-success-page a {
+  margin-top: 0.5rem;
+  display: inline-block;
+  font-size: 1.3rem;
+}
+
+.Verification-success-page h1 {
+  font-size: 2.2rem;
+}
+
+.Verification-success-page h2 {
+  font-size: 2.2rem;
+}
+
+.gotologin_button {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  background-color: #8696FE;
+  color: whitesmoke;
+  cursor: pointer;
+  border-radius: 0.3rem;
+  padding:0.5rem 1rem;
+  margin: 1rem 0;
+  outline: none;
+  border: none;
+}
+
+.gotologin_button:hover{
+  background-color: #4942E4;
+}

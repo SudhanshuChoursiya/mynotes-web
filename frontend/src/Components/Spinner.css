@@ -1,0 +1,17 @@
+html {
+  font-size: 62.5%;
+}
+
+.loading-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color: #f7f7f7;
+}
+
+.spinner-icon {
+  width: 7rem;
+  height: 7rem;
+}

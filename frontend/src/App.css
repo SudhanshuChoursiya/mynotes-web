@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Roboto:wght@100;300;400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #f7f7f7;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+.content {
+  flex: 1;
+}
+
