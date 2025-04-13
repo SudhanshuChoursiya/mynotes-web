@@ -6,7 +6,7 @@ const storage = multer.diskStorage({
    if(file.fieldname==="image"){
     cb(null, 'public/notes_images')
   } else if(file.fieldname==="notesfile"){
-    cb(null, 'public/notes-files')
+    cb(null, 'public/notes_files')
   }
   },
   filename: function (req, file, cb) {

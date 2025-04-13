@@ -29,4 +29,5 @@ const registerSchema = new mongoose.Schema({
   }
 });
 
+
 module.exports = mongoose.model("usersignup", registerSchema);

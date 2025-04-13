@@ -27,6 +27,6 @@ mongoose.connect(process.env.MONGO_CONNECTION_URL, {
   useUnifiedTopology: false,
 });
 
-app.use("", routes);
+app.use("/api", routes);
 
 app.listen(port);

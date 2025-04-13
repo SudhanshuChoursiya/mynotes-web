@@ -1,206 +1,192 @@
-.mainCardContainer{
+.mainCardContainer {
     display: flex;
     justify-content: center;
-    background:#fadbd0;
-    padding:2rem 0;
-    margin:2rem 1.5rem;
+    gap: 1rem;
+    background: #fadbd0;
+    padding: 1.5rem;
+    margin: 2.2rem 1.5rem;
     border-radius: 1.5rem;
 }
 
-.imgContainer img{
-    height:9.5rem;
-    width:9.5rem;
-    margin-left:2rem;
-    margin-right:1.2rem;
+.imgContainer img {
+    height: 9.5rem;
+    width: 9.5rem;
     border-radius: 1rem;
 }
 
-.TexualContentContainer{
-    min-height:100%!important;
+.TexualContentContainer {
+    min-height: 100% !important;
     position: relative;
     width: 100%;
 }
 
-.TexualContentContainer h1{
-    font-size:1.69rem;
-    margin-top:0.2rem;
-    margin-left: 0.6rem;
+.TexualContentContainer h1 {
+    font-size: 1.65rem;
+    margin-top: 0.2rem;
 }
 
-
-.btnContainer{
+.btnContainer {
     display: flex;
     justify-content: flex-start;
+    gap: 0.8rem;
     position: absolute;
-    bottom:4%;
+    bottom: 4%;
 }
 
-.btnContainer .cardBtn{
-    background-color:#b91f54;
+.btnContainer .cardBtn {
+    background-color: #b91f54;
     color: whitesmoke;
-    border:2px solid #b91f54;
+    border: 2px solid #b91f54;
     border-radius: 2.5rem;
-    padding:0.4rem 1.3rem;
-    font-size:1.26rem;
+    padding: 0.4rem 1.3rem;
+    font-size: 1.26rem;
     cursor: pointer;
-    font-weight:420;
-    margin: 0 0.3rem;
+    font-weight: 420;
     text-transform: capitalize;
 }
 
-.cardBtn:hover{
-    background-color:transparent;
-    border:2px solid #161b59;
-    color: #161b59;    
-}
-
-.modal-body{
-    font-size:1.85rem;
-}
-
-.modal-header button{
-    font-size:1.4rem;
-}
-
-.signup_login_btn{
-    background-color:#b91f54;
-    color: whitesmoke;
-    border:2px solid #b91f54;
-    border-radius: 2.5rem;
-    padding:0.4rem 1.8rem;
-    font-size:1.4rem;
-    cursor: pointer;
-    font-weight:410;
-}
-
-.signup_login_btn:hover{
-    background-color:transparent;
-    border:2px solid #161b59;
+.cardBtn:hover {
+    background-color: transparent;
+    border: 2px solid #161b59;
     color: #161b59;
 }
 
-.noresultfound p{
-   margin-bottom: 0;
-   font-size:1.7rem;
-   font-weight:402;
+.modal-body {
+    font-size: 1.85rem;
 }
 
-.nodatabody{
-    background-color:#dadada;
+.modal-header button {
+    font-size: 1.4rem;
+}
+
+.signup_login_btn {
+    background-color: #b91f54;
+    color: whitesmoke;
+    border: 2px solid #b91f54;
+    border-radius: 2.5rem;
+    padding: 0.4rem 1.8rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    font-weight: 410;
+}
+
+.signup_login_btn:hover {
+    background-color: transparent;
+    border: 2px solid #161b59;
+    color: #161b59;
+}
+
+.noresultfound p {
+    margin-bottom: 0;
+    font-size: 1.7rem;
+    font-weight: 402;
+}
+
+.nodatabody {
+    background-color: #dadada;
     color: black;
-    border-radius:1rem;
+    border-radius: 1rem;
 }
 
-.nodatabody h4{
-    font-size:1.65rem;
-    margin-left:2rem!important;
-    
+.nodatabody h4 {
+    font-size: 1.65rem;
+    margin-left: 2rem !important;
 }
 
-
-.nodatabody ul li{    
-    font-size:1.58rem;
-    margin-left:1.5rem!important;
+.nodatabody ul li {
+    font-size: 1.58rem;
+    margin-left: 1.5rem !important;
     margin-right: 0.1rem;
 }
 
-
-.noresultfound{
-margin:1rem 1.6rem;
+.noresultfound {
+    margin: 1rem 1.6rem;
 }
 
-.pageBtnContainer{
-  display: flex;
-  flex-wrap: wrap;
+.pageBtnContainer {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.previousBtnContainer{
-  display: flex;
-  flex-wrap: wrap;
+.previousBtnContainer {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.nextBtnContainer{
-  display: flex;
-  flex-wrap: wrap;
+.nextBtnContainer {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.pageBtnContainer li{
-  margin: 0.5rem;
-  padding:1rem 1.5rem;
-  background: #2980b9;
-  border-radius: 1rem;
-  color: whitesmoke;
-  cursor: pointer;
-  font-size: 1.2rem;
-  font-weight: bold;
-  list-style: none;
+.pageBtnContainer li {
+    margin: 0.5rem;
+    padding: 1rem 1.5rem;
+    background: #2980b9;
+    border-radius: 1rem;
+    color: whitesmoke;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    list-style: none;
 }
 
-.pageBtnContainer a{
-  border-radius: 1rem;
-  color: whitesmoke;
-  text-decoration: none;
-  cursor: pointer;
-  font-size: 1.2rem;
-  font-weight: bold;
+.pageBtnContainer a {
+    border-radius: 1rem;
+    color: whitesmoke;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
-.pageBtnContainer .active{
-  background-color: #e74c3c;
+.pageBtnContainer .active {
+    background-color: #e74c3c;
 }
-
-
 
 @media (min-width: 200px) and (max-width: 350px) {
-.btnContainer .cardBtn{
-    padding:0.3rem 0.7rem;
-    font-size:1.1rem;
-    margin: 0 0.4rem;
-}
+    .btnContainer .cardBtn {
+        padding: 0.3rem 0.7rem;
+        font-size: 1.1rem;
+        margin: 0 0.4rem;
+    }
 
-.TexualContentContainer h1{
-    font-size:1.45rem;
+    .TexualContentContainer h1 {
+        font-size: 1.45rem;
+    }
 }
-
-}
-
 
 @media (min-width: 600px) and (max-width: 1023px) {
-.cardContainer{
-  width: 60rem!important;
-  margin: 0 auto;
-  
-}
+    .cardContainer {
+        width: 60rem !important;
+        margin: 0 auto;
+    }
 
-.pageBtnContainer{
-  justify-content: center;
-  padding-left: 0!important;
-}
-
+    .pageBtnContainer {
+        justify-content: center;
+        padding-left: 0 !important;
+    }
 }
 
 @media (min-width: 1024px) and (max-width: 2200px) {
-  .cardContainer{
-  width: 65rem!important;
-  margin:0 auto;
-}
+    .cardContainer {
+        width: 65rem !important;
+        margin: 0 auto;
+    }
 
-.pageBtnContainer{
-  justify-content: center;
-  padding-left: 0!important;
-}
-
+    .pageBtnContainer {
+        justify-content: center;
+        padding-left: 0 !important;
+    }
 }
 
 @media (min-width: 2201px) and (max-width: 5500px) {
- .cardContainer{
-  width: 70rem!important;
-  margin:0 auto;
-}
+    .cardContainer {
+        width: 70rem !important;
+        margin: 0 auto;
+    }
 
-.pageBtnContainer{
-  justify-content: center;
-  padding-left: 0!important;
-}
-
+    .pageBtnContainer {
+        justify-content: center;
+        padding-left: 0 !important;
+    }
 }

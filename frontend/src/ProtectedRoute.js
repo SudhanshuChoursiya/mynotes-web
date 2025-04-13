@@ -14,7 +14,7 @@ const userToken = localStorage.getItem("5h&3hdh&$cud@67#hfj");
   if(userToken || adminToken){
     navigate('/')
   }
-  },[])
+  },[userToken,adminToken])
   
   return(
     <>

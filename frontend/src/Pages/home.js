@@ -28,9 +28,10 @@ const Homepage = () => {
   const adminToken = localStorage.getItem("f@&uhdjxjd$64$68#hd");
 
   const base_url = process.env.REACT_APP_BASE_URL;
+  const backend_url = process.env.REACT_APP_BACKEND_URL;
 
-  const img_url = `${base_url}/notes_images`;
-  const file_url = `${base_url}/notes-files`;
+  const img_url = `${backend_url}/notes_images`;
+  const file_url = `${backend_url}/notes_files`;
 
   const handlePageClick = (currentPage) => {
     window.scrollTo({ top: 0, behavior: "smooth" });
