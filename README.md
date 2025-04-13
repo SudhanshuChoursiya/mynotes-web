@@ -4,7 +4,7 @@ A modern MERN stack web application where users can read and download study mate
 
 ## Live Demo
 
-[Click here to visit the live website](https://ecomerce-web-pi.vercel.app)
+[Click here to visit the live website](https://mynotes-web-pi.vercel.app)
 
 ## Features
 

@@ -14,7 +14,16 @@ const mongoose = require("mongoose");
 
 const bodyparser = require("body-parser");
 const cors = require("cors");
-app.use(cors());
+const allowedOrigins = [
+    "http://localhost:3000",
+    "https://mynotes-web-pi.vercel.app"
+];
+
+const options = {
+    credentials: true,
+    origin: allowedOrigins
+};
+app.use(cors(options));
 app.use(bodyparser.urlencoded({ extended: true }));
 
 app.use(bodyparser.json());
